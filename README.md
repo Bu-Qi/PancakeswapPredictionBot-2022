@@ -1,5 +1,5 @@
 
-# **🥞 PancakeSwap Prediction v2.0.1 Bot (Update 2022) 🤖**
+# **🥞 薄饼预测机器人 v2.0.1 Bot (Update 2022) 🤖**
 
 ![PancakeSwap-Logo-Big](https://github.com/parames3010/PancakeswapPredictionBot-2022/blob/main/pancake.png)
 <p align="center">
@@ -16,39 +16,39 @@
     <img src="https://img.shields.io/twitter/follow/PancakeSwap?style=social" alt="Follow @PancakeSwap" />
   </a>
 
-This bot wins majority of rounds on PancakeSwap & CandleGenie based on both market conditions, and the strategy chosen.
+根据市场条件和选择的策略，该机器人在 PancakeSwap 和 CandleGenie 上赢得了大部分回合。
 
-## 💡 Installation 
+## 💡 安装 
 
-Download & Install Node here :
+下载安装node.js :
 https://nodejs.org/en/download/
 
-Then run command prompt or powershell
+然后运行下列命令行
 
-- Type ``cd PancakeswapPredictionBot2.0.1`` (replace with your cloned/downloaded bot folder)
+- Type ``cd PancakeswapPredictionBot2.0.1`` (覆盖文件夹)
 - Type ``npm i``
 
-## 🧑‍🚀 Usage
+## 🧑‍🚀使用方法
 
-1. Copy/rename **.env_example** to **.env** ``cp .env_example .env``
-2. Provide your private key to .env PRIVATE_KEY field.
-3. Install dependencies `npm i` or `yarn` if not already completed above.
-4. Start the bot using `npm run start -- --with` or `yarn start -- --with`
+1.重命名 **.env_example** to **.env** ``cp .env_example .env``
+2. 粘贴你准备投注地址的私钥.env PRIVATE_KEY field.
+3. 安装依赖 `npm i` or `yarn` if not already completed above.
+4. 开始使用 `npm run start -- --with` or `yarn start -- --with`
 5. Enjoy!
 
-### 🦊 How to Export Private Key from MetaMask
-1. Open your account
-2. Click on three points at top-right corner
-3. Account details
-4. Export Private Key.
+### 🦊 如何从 MetaMask 导出私钥
+1. 打开您的账户 
+2. 点击右上角的三个点
+3. 帐户详细资料
+4. 导出私钥.
 
 ### ✔️ Sample ``.ENV`` file
 ```
-# Your wallet private key. 
+# 你的钱包私钥. 
 PRIVATE_KEY="YOUR_PRIVATE_KEY_HERE"
-# The maximum bet amount you are willing to execute.
+# 您愿意执行的最大下注金额。
 BET_AMOUNT="0.01"
-# RPC is the default network for Ether transactions. For Binance Smart Chain, leave it as it is.
+# RPC 是BNB交易的默认网络。 对于 Binance Smart Chain，保持原样。 
 RPC="https://bsc-dataseed.binance.org/"
 ```
 
@@ -64,15 +64,14 @@ Running this bot for a day had made me $55 with minimum bets. Please note I was 
 
 #### 📢 Advice:
   
-- Run the bot with your wallet at a ratio of 10x the amount you choose to bet
-- Adjust the bot accordingly to bet with or against the majority.
-- When the chart swings, use the "--with" strategy.
-- When the chart trends sideways, use the default, against strategy. 
-- Always monitor & adjust the bot accordingly but allow room for error.
-- Consistent gains will be made by running smaller betting amounts over longer periods of time. 
-- Always account & allow room for error. Losing 3 sucks, but stopping it only prevents it from potentially winning the next 4 & bringing you to a profit. 
-- Majority of the runs with over 2k plays I have a standard 54-66% win rate depending on how well I monitor it & based on market conditions.
-  
+- 使用您的钱包以您选择下注金额的 10 倍的比例运行机器人
+- 相应地调整机器人以投注或反对多数。
+- 当图表出现波动时，使用“--with”策略。
+- 当图表趋势横盘时，使用默认的反对策略。
+- 始终相应地监控和调整机器人，但要留出出错的余地。
+- 通过在较长时间内运行较小的投注金额可以获得一致的收益。
+- 始终考虑并留出容错空间。 失去 3 很糟糕，但停止它只会阻止它潜在地赢得下一个 4 并让您获利。
+- 大多数运行超过 2k 的游戏我有一个标准的 54-66% 胜率，这取决于我对它的监控程度以及根据市场情况。 
 
 ## 💼 License
  
@@ -80,18 +79,16 @@ MIT License
   
 ## 🍻 Donate
 
-BOT is free-to-use, but you are welcome to appreciate my work ☺️
+机器人是免费使用的，但欢迎您欣赏我的工作☺️
+ETH - 0x1712Fd572899eac9FdE7Cc6C976393ee28b248f2
 
-ETH - 0x041e1464099afcc5996B84372403b749D0B14b97
+BNB - 0x1712Fd572899eac9FdE7Cc6C976393ee28b248f2  
 
-BNB - 0x041e1464099afcc5996B84372403b749D0B14b97  
-
-## 💥 Disclaimers
+## 💥 免责声明
   
-All investment strategies and investments involve risk of loss.
+所有投资策略和投资都涉及损失风险。
 
-**Nothing contained in this program, scripts, code or repository should be construed as investment advice.**
-Any reference to an investment's past or potential performance is not, and should not be construed as, a recommendation or as a guarantee of any specific outcome or profit. By using this program you accept all liabilities, and that no claims can be made against the developers or others connected with the program.
-   
-## 📧 Contact
-- bitcoincompany123@gmail.com
+**此程序、脚本、代码或存储库中包含的任何内容均不应被视为投资建议。**
+对投资过去或潜在表现的任何提及都不是也不应被解释为建议或对任何特定结果或利润的保证。 通过使用该程序，您接受所有责任，并且不能对开发人员或与该程序相关的其他人提出任何索赔。 
+## 📧联系方式
+- yinjianxiucai@gmail.com
