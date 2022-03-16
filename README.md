@@ -30,11 +30,11 @@ https://nodejs.org/en/download/
 
 ## 🧑‍🚀使用方法
 
-1.重命名 **.env_example** to **.env** ``cp .env_example .env``
+1.重命名 **.env_example** 变成 **.env** ``cp .env_example .env``
 2. 粘贴你准备投注地址的私钥.env PRIVATE_KEY field.
-3. 安装依赖 `npm i` or `yarn` if not already completed above.
-4. 开始使用 `npm run start -- --with` or `yarn start -- --with`
-5. Enjoy!
+3. 命令行输入 `npm i` 或者 `yarn` 如果安装完成.
+4. 开始使用 `npm run start -- --with` 或者`yarn start -- --with`
+5. 冲!
 
 ### 🦊 如何从 MetaMask 导出私钥
 1. 打开您的账户 
@@ -54,15 +54,15 @@ RPC="https://bsc-dataseed.binance.org/"
 
 ## 🧪 Screenshots
 
-To check history of the rounds you played, head over to: https://pancakeswap.finance/prediction
+要查看您玩过的回合的历史记录，请前往: https://pancakeswap.finance/prediction
 
 ![History](https://user-images.githubusercontent.com/37302442/142716425-eb32f875-a767-4f22-abf1-6d97071dbd6d.png)
 
-Running this bot for a day had made me $55 with minimum bets. Please note I was actively monitoring the market as the bot was running.
+运行这个机器人一天让我用最低赌注赚了 55 美元。 请注意，当机器人运行时，我正在积极监控市场。 
 
 ![History_2](https://user-images.githubusercontent.com/37302442/142724431-48a7c301-ee59-4485-9733-3ee5a0303c00.PNG)
 
-#### 📢 Advice:
+#### 📢建议:
   
 - 使用您的钱包以您选择下注金额的 10 倍的比例运行机器人
 - 相应地调整机器人以投注或反对多数。
